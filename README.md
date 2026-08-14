@@ -1,2 +1,2 @@
 # Landing-Page-Avanzada-De-Refrigeracion
-Implementación de javascript en mi landing page de refrigeración
+Es la continuación de mi landing page para mi negocio de refrigeración, queria prácticar el javascript que aprendi en introduccicón a la computación, y quede satisfecho con el desarrollo, además aprendi a hacer SEO básico y a como hacer deploy (en netlify), disfrute mucho haciendo este proyecto y quede encantado con el apartado visual, link en netlify: https://serviciosperoza.netlify.app
