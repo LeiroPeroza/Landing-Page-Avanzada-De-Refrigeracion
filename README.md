@@ -1,4 +1,4 @@
-# ❄️ Servicios Peroza — Landing Page
+#  Servicios Peroza — Landing Page
 
 Landing page profesional para un negocio real de refrigeración y climatización en Barquisimeto, Venezuela. Incluye una calculadora de presupuesto interactiva construida en JavaScript.
 
