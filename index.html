@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Peroza | Climatización Profesional</title>
+    <meta name="description"
+        content="Servicios Peroza: Reparación y mantenimiento de aires acondicionados en Barquisimeto. Técnico certificado Leiro Peroza. ¡Garantía por escrito!">
+    <meta name="keywords"
+        content="refrigeracion barquisimeto, aire acondicionado lara, reparacion de aires, mantenimiento de aires, tecnico refrigeracion">
+    <meta name="author" content="Servicios Peroza">
+    <!--Face -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://serviciosperoza.netlify.app">
+    <meta property="og:title" content="Servicios Peroza | Climatización Profesional">
+    <meta property="og:description"
+        content="Reparación y mantenimiento de aires acondicionados en Barquisimeto. Técnico certificado. ¡Garantía por escrito!">
+    <meta property="og:image" content="https://serviciosperoza.netlify.app/logo.jpg">
+
+    <!-- X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Servicios Peroza | Climatización Profesional">
+    <meta name="twitter:description"
+        content="Reparación y mantenimiento de aires acondicionados en Barquisimeto. Técnico certificado.">
+    <meta name="twitter:image" content="https://serviciosperoza.netlify.app/logo.jpg">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./resources/logo.jpg" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <img src="./resources/logo.jpg" alt="Logo" class="nav-logo">
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#garantia">Garantía</a></li>
+                <li><a href="https://wa.me/584245776164" class="btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                        Contactar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Técnico Certificado</span>
+            <h1>Tu hogar siempre a la <br><span>temperatura ideal</span></h1>
+            <p>Mantenimiento y reparación de aires acondicionados con garantía por escrito. Servicio rápido en Barquisimeto.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/584245776164" class="btn-primary">Agendar Revisión</a>
+                <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">¿Qué problema resolvemos?</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Mantenimiento</h3>
+                    <p>Limpieza profunda para evitar malos olores y mejorar el rendimiento.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Reparación</h3>
+                    <p>Diagnóstico de fallas eléctricas, compresores y tarjetas.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-wind"></i>
+                    <h3>Carga de Gas</h3>
+                    <p>Detección de fugas y recarga con refrigerante de alta calidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="garantia" class="trust">
+        <div class="container trust-flex">
+            <div class="trust-card">
+                <div class="card-header">
+                    <i class="fas fa-award"></i>
+                    <h3>Certificación Oficial</h3>
+                </div>
+                <img src="./resources/diploma.jpg" alt="Diploma" class="img-zoom">
+            </div>
+            <div class="trust-card">
+                <div class="card-header">
+                    <i class="fas fa-file-signature"></i>
+                    <h3>Garantía Real</h3>
+                </div>
+                <img src="./resources/tarjeta-detras.jpg" alt="Tarjeta de garantía" class="img-zoom">
+            </div>
+        </div>
+    </section>
+
+    <!-- CALCULADORA -->
+
+    <section class="calculator-section container">
+        <div class="calc-card">
+            <h2 class="calc-title"><i class="fas fa-calculator"></i> Presupuesto en Línea</h2>
+            <p class="calc-subtitle">Calcula el costo de tu servicio en segundos. Sin compromiso.</p>
+
+            <div class="input-group">
+                <label for="cantidadEquipos">¿Cuántos equipos de refrigeración vamos a trabajar?</label>
+                <input type="number" id="cantidadEquipos" class="input-field" placeholder="Ingrese una cantidad">
+                <button onclick="ui.renderizarFormularios()" class="btn-primary btn-calc">Estimar</button>
+            </div>
+
+            <div id="contenedorEquipos"></div>
+
+            <div id="areaReporte" class="report-box" style="display: none;"></div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE "COMO FUNCIONA" -->
+
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">¿Cómo funciona?</h2>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <h4>Cotiza</h4>
+                    <p>Selecciona tus equipos y servicios</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <h4>Agendas</h4>
+                    <p>Coordinamos fecha y hora por WhatsApp</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <h4>Solucionamos</h4>
+                    <p>Servicio técnico con garantía por escrito</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <img src="./resources/logo.jpg" alt="Logo Peroza" class="footer-logo">
+                <p>Servicio técnico especializado en Barquisimeto. Calidad, honestidad y garantía en cada reparación.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#garantia">Garantía</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contáctame</h4>
+                <p><i class="fas fa-phone"></i> +58 424-5776164</p>
+                <p><i class="fas fa-map-marker-alt"></i> Barquisimeto, Edo. Lara</p>
+                <p><i class="fas fa-envelope"></i> serviciosperoza@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Servicios Peroza. Todos los derechos reservados.</p>
+            <p>Diseñado por Leiro Peroza</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
