@@ -60,16 +60,9 @@ No requiere instalación. Se puede abrir `index.html` directamente en el navegad
 ##  Qué aprendí
 
 - Separar lógica de negocio de la manipulación del DOM en capas independientes.
-- Implementar SEO básico (meta tags, Open Graph, Twitter Cards) y verificar cómo se ve un sitio al compartirse.
+- Implementar SEO básico y verificar cómo se ve un sitio al compartirse.
 - Generar enlaces dinámicos a WhatsApp con `encodeURIComponent` para evitar romper la URL con espacios o símbolos.
 - Proceso de deploy de un sitio estático en Netlify.
-
-##  Próximos pasos
-
-- Definir y ajustar la lógica de precios según el tipo de equipo.
-- Reemplazar los `onclick` inline por `addEventListener`.
-- Optimizar el renderizado dinámico de los formularios.
-- Agregar validaciones adicionales sobre cambios de cantidad de equipos.
 
 ---
 
